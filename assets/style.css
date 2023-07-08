@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'IgdaliasFont';
+    src: url('fonts/coolvetica/coolvetica\ compressed\ hv.otf') format('otf'),
+        url('fonts/coolvetica/coolvetica\ condensed\ rg.otf') format('otf'),
+        url('fonts/coolvetica/coolvetica\ crammed\ rg.otf') format('otf'),
+        url('fonts/coolvetica/coolvetica\ rg.otf') format('otf'),
+        url('fonts/coolvetica/coolvetica\ rg\ it.otf') format('otf');
+}
+
+body {
+    /*background: radial-gradient(circle, #7D3C98 25%, #000, #080808, #111);*/
+    background: radial-gradient(circle, #000 40%, #080808 50%, #111);
+    font-family: 'IgdaliasFont', sans-serif, monospace;
+    color: #fff;
+}
+
+main{
+    padding-left: 6%;
+    text-align: left;
+}
+
+.name {
+    word-break: break-all;
+    color: #fff;
+    font-family: 'IgdaliasFont', sans-serif, monospace;
+    font-size: 90pt;
+}
+
+.container{
+    margin: 2% 0;
+}
+
+.photo-container {
+    width: 50vw;
+}
+
+.photo {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: 3px dashed #80877D;
+}
+
+.text-center {
+    text-align: center;   
+}
+
+.text-highlight{
+    background-color: rgba(97, 100, 101, 0.2);
+    border-radius: 10px;
+}
+
+.md-element {
+    color: #616465;
+}
