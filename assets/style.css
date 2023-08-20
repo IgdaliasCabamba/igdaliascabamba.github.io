@@ -1,20 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    vertical-align: baseline;
-}
-
-html {
-    box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
 @font-face {
     font-family: 'IgdaliasFont';
     src: url('fonts/coolvetica/coolvetica\ compressed\ hv.otf') format('otf'),
@@ -25,15 +8,16 @@ html {
 }
 
 body {
-    /*background: radial-gradient(circle, #7D3C98 25%, #000, #080808, #111);*/
-    background: radial-gradient(circle, #000 40%, #080808 50%, #111);
+    background: #080808;
     font-family: 'IgdaliasFont', sans-serif, monospace;
     color: #fff;
 }
 
-main{
-    padding-left: 6%;
-    text-align: left;
+.igdalias-bg-main {
+    background: #080808;
+}
+.igdalias-bg-element {
+    background: #111;
 }
 
 .name {
@@ -41,25 +25,6 @@ main{
     color: #fff;
     font-family: 'IgdaliasFont', sans-serif, monospace;
     font-size: 90pt;
-}
-
-.container{
-    margin: 2% 0;
-}
-
-.photo-container {
-    width: 50vw;
-}
-
-.photo {
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    border: 3px dashed #80877D;
-}
-
-.text-center {
-    text-align: center;   
 }
 
 .text-highlight{
