@@ -35,3 +35,17 @@ body {
 .md-element {
     color: #616465;
 }
+
+.sh-text {
+    color: #D08770;
+}
+
+.sh-symbol {
+    color: gold;
+}
+.sh-key {
+    color: #b662a6;
+}
+.sh-name {
+    color: khaki;
+}
